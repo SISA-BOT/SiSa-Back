@@ -103,14 +103,14 @@ def approval():
 
 def Main_IREESA():
         clear()
-        print(f"{R}[{G}1{R}]{G} Start File Cloning")
-        print(f"{R}[{G}2{R}]{G} Start Random Cloning")
-        print(f"{R}[{G}0{R}]{G} Exit Tools")
+        print(f"{R}[{G}1{R}]{G} START FILE CLONING")
+        print(f"{R}[{G}2{R}]{G} START RANDOM CLONING")
+        print(f"{R}[{G}0{R}]{G} EXIT TOOLS")
         linex()
-        opt1 = input(f"{R}[{G}?{R}]{G} Selection {R}:{G} ")
+        opt1 = input(f"{R}[{G}?{R}]{G} SELECTION {R}:{G} ")
         if opt1 == "1": file()   
         elif opt1 == "2":
-            clear();print(f'{R}[{G}1{R}]{G} Start Bd Uid Cloning');print(f'{R}[{G}2{R}]{G} Start India Uid Cloning');print(f'{R}[{G}3{R}]{G} Start Gmail Cloning');linex()
+            clear();print(f'{R}[{G}1{R}]{G} START BD UID CLONING');print(f'{R}[{G}2{R}]{G} START INDIA UID CLONING');print(f'{R}[{G}3{R}]{G} START GMAIL CLONING');linex()
             opt = input(f"{R}[{G}?{R}]{G} Selection {R}:{G} ")
             if opt == '1': bd()
             if opt == '2':ind()
