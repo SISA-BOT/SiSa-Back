@@ -73,7 +73,7 @@ logo=(f"""
 {A}--------------------------------------------
 {R}[{G}={R}]{G} DEVELOPER {A}●{G} AHMED SISA
 {R}[{G}={R}]{G} GITHUB    {A}●{G} SISA-BOT
-{R}[{G}={R}]{G} VERSION   {A}●{G} 0.69
+{R}[{G}={R}]{G} VERSION   {A}●{G} PERSONAL
 {A}--------------------------------------------""")
 ##---------------APPROVAL------------##
 def approval():
