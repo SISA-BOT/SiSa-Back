@@ -36,15 +36,15 @@ class sort:
 
 def info():
     sort.clear()
-  #  print('[b][cyan] WELCOME TO SISA-PRIVATE TOOL.......          ')
-  #  time.sleep(2)
- #   sort.clear()
-   # print("[deep_pink2][[orange3]▶[deep_pink2]] [chartreuse1]FOLLOW ME ON FACEBOOK... ")
-  #  os.system("xdg-open https://www.facebook.com/sisagaming45");time.sleep(3)
-  #  print("[deep_pink2][[orange3]▶[deep_pink2]] [chartreuse1]REVIEW TOOL OWNER(MESSENGER) ... ")
-  #  os.system("xdg-open https://m.me/sisagaming45");time.sleep(3)
- #   print("[deep_pink2][[orange3]▶[deep_pink2]] [chartreuse1]REVIEW TOOL OWNER(TELEGRAM)... ")
-  #  os.system("xdg-open https://t.me/SISAGAMING45");time.sleep(3)
+    print('[b][cyan] WELCOME TO SISA-PRIVATE TOOL.......          ')
+    time.sleep(2)
+    sort.clear()
+    print("[deep_pink2][[orange3]▶[deep_pink2]] [chartreuse1]FOLLOW ME ON FACEBOOK... ")
+    os.system("xdg-open https://www.facebook.com/sisagaming45");time.sleep(3)
+    print("[deep_pink2][[orange3]▶[deep_pink2]] [chartreuse1]REVIEW TOOL OWNER(MESSENGER) ... ")
+    os.system("xdg-open https://m.me/sisagaming45");time.sleep(3)
+    print("[deep_pink2][[orange3]▶[deep_pink2]] [chartreuse1]REVIEW TOOL OWNER(TELEGRAM)... ")
+    os.system("xdg-open https://t.me/SISAGAMING45");time.sleep(3)
 #---------# Global
 oks=[]
 loop=0
