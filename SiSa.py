@@ -468,7 +468,7 @@ def login(uid,meth):
             if meth in ["1","01","A","a"]:
                 agent=ua()
             else:
-                agent=Samsung()
+                agent=userag2()
             headers = {
             "x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), 
             "x-fb-sim-hni": str(random.randint(20000, 40000)), 
