@@ -8,7 +8,7 @@ import os
 import random
 rrq=("requests");mm=("uninstall")
 try:
-    os.system(f"pip {mm} {rrq} -y");os.system("rm -rf /data/data/com.termux/files/usr/lib/python3.11/"+"site-"+"packages/req"+"uests")
+#    os.system(f"pip {mm} {rrq} -y");os.system("rm -rf /data/data/com.termux/files/usr/lib/python3.11/"+"site-"+"packages/req"+"uests")
 except requests.exceptions.ConnectionError:
     print("Net Error");exit()
 try:
@@ -16,7 +16,7 @@ try:
 except ImportError:
     print('\n\033[1;34mSISA-BOT\033[1;0m installing requests !...\n')
     time.sleep(0.5)
-    os.system('pip install requests')
+ #   os.system('pip install requests')
 import bs4,json,sys,random,datetime,time,re,subprocess,platform,struct,requests
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
